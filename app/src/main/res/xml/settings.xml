@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="checkclick"
+        android:summary="On/Off Click Sound"
+        android:title="Click Sound" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="fullscreen"
+        android:summary="Enable/Disable FullScreen"
+        android:title="FullScreen" />
+
+    <ListPreference
+        android:entries="@array/background_colors"
+        android:entryValues="@array/background_colors_Values"
+        android:key="colors"
+        android:summary="Select a Background Color"
+        android:title="Background Colors" />
+
+
+</PreferenceScreen>

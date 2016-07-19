@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="background_colors">
+        <item>Blue</item>
+        <item>Crimson</item>
+        <item>Purple</item>
+        <item>Green</item>
+        <item>Coral</item>
+
+    </string-array>
+
+    <string-array name="background_colors_Values">
+        <item>#0000FF</item>
+        <item>#DC143C</item>
+        <item>#800080</item>
+        <item>#008000</item>
+        <item>#FF7F50</item>
+    </string-array>
+</resources>
